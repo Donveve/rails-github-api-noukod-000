@@ -1,5 +1,4 @@
 
-18 lines (15 sloc) 555 Bytes
 class SessionsController < ApplicationController
   skip_before_action :authenticate_user
 
